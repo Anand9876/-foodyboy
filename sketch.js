@@ -78,7 +78,7 @@ function draw(){
   
   if(gameState===END){
     textSize(20);
-    text("My is fully filled with food and soda,so please stop.",50,200)
+    text("My stomach is fully filled with food and soda,so please stop.",50,200)
     text("Press ENTER to restart",150,220);
     character.y=480;
     character.addImage(CharacterImage);
